@@ -1,0 +1,23 @@
+source inspiration : 
+Website
+- https://colorlib.com/wp/themes/pixova-lite/
+- https://www.free-css.com/free-css-templates/page295/applight
+- https://www.free-css.com/free-css-templates/page295/esigned
+- https://www.free-css.com/free-css-templates/page295/antique-cafe
+
+Mobile
+- https://www.figma.com/community/file/1091615514005406765
+- https://www.figma.com/community/file/776921648331857127
+- https://www.figma.com/community/file/1287066164820744997
+- https://www.figma.com/community/file/1362393407429980800
+
+- Database :
+~ Movie : 
+    ~ Title
+    ~ Year
+    ~ Genre[]
+    ~ Producer
+    ~ Notify Me[]
+    ~ Created At
+    ~ Already Watch
+    ~ MovieId (from api)
