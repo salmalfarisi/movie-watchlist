@@ -1,11 +1,11 @@
 <template>
-    <div id="feature" class="w-full p-8 h-100">
-        <div class="flex justify-center">
+    <div id="feature" class="bg-[url(/poster.png)] w-full p-8 h-100">
+        <div class="flex justify-center opacity-100">
             <div class="p-4 rounded-xl text-3xl font-bold bg-green-vue-800 text-white">
                 Our Features
             </div>
         </div>
-        <div class="mt-4 gap-8 md:flex md:justify-around">
+        <div class="mt-4 gap-8 md:flex md:justify-around opacity-100">
             <div class="p-4 sm:mx-4 sm:my-8 sm:w-100 md:w-1/3 rounded-xl bg-blue-vue-400 text-black">
                 <div class="mx-auto flex justify-center">
                     <img src="/calendar.svg" class="w-24 h-24 margin-fleche" quality="30"/>
