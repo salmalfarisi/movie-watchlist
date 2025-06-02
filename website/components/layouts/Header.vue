@@ -31,18 +31,18 @@
         </div>
         <div v-if="(test.valueOf() == true) ? 'hidden':''" class="text-right bg-blue-vue-300">
             <div id="menu">
-                <div class="p-3 border">
-                    <a href="#home" @click="setMenu(true)">
+                <div class="p-3 border" @click="setMenu(true)">
+                    <a href="#home">
                         Home
                     </a>
                 </div>
-                <div class="p-3 border">
-                    <a href="#feature" @click="setMenu(true)">
+                <div class="p-3 border" @click="setMenu(true)">
+                    <a href="#feature">
                         Feature
                     </a>
                 </div>
-                <div class="p-3 border">
-                    <a href="#contact" @click="setMenu(true)">
+                <div class="p-3 border" @click="setMenu(true)">
+                    <a href="#contact">
                         Contact
                     </a>
                 </div>
@@ -54,7 +54,7 @@
 <script setup lang="ts">
     import { ref } from 'vue';
 
-    let test = ref(true);
+    let test = ref(false);
 
     function setMenu(target: boolean) 
     {

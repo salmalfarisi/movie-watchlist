@@ -1,6 +1,6 @@
-# PortFolio - Movie (test)
+# WatchiList (mobile)
 
-Simple app to manage users's movie wishlist
+this is just a portfolio
 
 ## Install the dependencies
 ```bash
