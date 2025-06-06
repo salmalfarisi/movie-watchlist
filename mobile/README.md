@@ -1,6 +1,6 @@
-# WatchiList (mobile)
+# MWatchlist (mobile)
 
-this is just a portfolio
+this is a portfolio
 
 ## Install the dependencies
 ```bash
