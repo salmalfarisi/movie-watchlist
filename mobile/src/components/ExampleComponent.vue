@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="border p-4">
     <h1 class="text-green-500 text-2xl font-bold">{{ title }}</h1>
     <ul>
       <li v-for="todo in todos" :key="todo.id" @click="increment">

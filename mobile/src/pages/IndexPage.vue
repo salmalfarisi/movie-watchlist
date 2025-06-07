@@ -40,4 +40,9 @@ const todos = ref<Todo[]>([
 const meta = ref<Meta>({
   totalCount: 1200
 });
+
+defineOptions({
+  name: 'IndexPage'
+})
+
 </script>
