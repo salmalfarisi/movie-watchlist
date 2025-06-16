@@ -3,8 +3,15 @@ import type { RouteRecordRaw } from 'vue-router';
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
+    name:'welcome',
+    component: () => import('pages/Welcome.vue'),
+    children: []
+  },
+  {
+    path: '/home',
+    name:'home',
+    component: () => import('pages/HomeMobile.vue'),
+    children: []
   },
 
   // Always leave this as last one,

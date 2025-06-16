@@ -5,7 +5,7 @@
     <Feature/>
     <Contact/>
     <!--<NuxtWelcome/>-->
-    <!--<Color/>-->
+    <Color/>
   </div>
 </template>
 
